@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/tv1"
+        android:text="A basic message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.suke.widget.SwitchButton
+        android:layout_marginTop="10dp"
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Try me!"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/tv2"
+        android:text="A title with a text under"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/button2"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/blue_r"
+        android:text="Try me!"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="A error message" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/button3"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/blue_r"
+        android:text="Try me!"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/tv4"
+        android:text="Show the cancel button and bind listener to it"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/blue_r"
+        android:text="Try me!"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/tv5"
+        android:text="A success message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/button5"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/blue_r"
+        android:text="Try me!"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/tv6"
+        android:text="Show the cancel button and bind listener to it"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/button6"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/blue_r"
+        android:text="Try me!"
+        android:textColor="#ffffff" />
+
+</LinearLayout>
